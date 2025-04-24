@@ -1,0 +1,78 @@
+.projeto:hover {
+    background-color: #4c56af5d;
+    color: white;
+}
+
+
+
+  .gui {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .gui:hover {
+    color: #4322a0;
+  }
+
+  .navegacao{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  .gui{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  .sobre{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  .meunome{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  .projetos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .experiencias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+
+
+  style
+  body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+  }
+  .btn {
+      font-size: 20px;
+      padding: 10px 20px;
+      margin: 10px;
+      cursor: pointer;
+      border: none;
+      border-radius: 5px;
+  }
+  .like {
+      background-color: #4CAF50;
+      color: white;
+  }
+  .dislike {
+      background-color: #f44336;
+      color: white;
+  }
+  .count {
+      font-size: 24px;
+      margin-top: 20px;
+  }
